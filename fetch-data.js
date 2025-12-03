@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
         dataContainer.innerHTML = "Loading user data...";
 
         try {
-            const response = await fetch(apiurl);
+            const response = await fetch(apiUrl);
             const users = await response.json();
 
             dataContainer.innerHTML = "";
